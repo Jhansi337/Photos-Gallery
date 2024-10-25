@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+@import './colors.css';
+
+body, h1, h2, h3, h4, h5, h6, p{
+    margin: 0%;
+    padding: 0%;
+    font-family: Prociono, cursive;
+}
+
+body{
+    background-color:var(--yellow);
+    min-height: calc(100vh - 5rem);
+    position: relative;
+    padding-bottom: 5rem !important;
+}
+
+nav{
+    background-color: var(--sky-blue);
+}
+
+nav .title{
+    color: var(--maroon);
+    text-decoration:double;
+    display: inline-block;
+    padding: 0.75rem;
+    padding-left: 0px;
+}
+nav .logo{
+    height: 1.75rem;
+    margin-left: 1.0rem;
+    margin-right: 0.25cm;
+}
+nav form{
+    display: inline;
+    float: right;
+    padding-top: 0.75rem;
+    padding-right: 0.75rem;
+}
+nav .search{
+    font-family: Prociono;
+    padding: 0.25rem 0.75rem;
+    border-radius: 5px;
+    border-style: inset;
+    color: var(--maroon);
+    width: 7cm;
+}
+.search1{
+    font-family: Prociono;
+    padding: 0.25rem 0.75rem;
+    border-radius: 5px;
+    border-style: groove;
+    color: var(--maroon);
+    background-color: var(--orange);
+    width: 3cm;
+    cursor: grab;
+    
+}
+nav .search:focus{
+    outline: none !important;
+    border: 1px solid var(--maroon);
+}
+.heading{
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: calc(100% - 1.5rem);
+    padding: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sky-blue);
+    text-decoration: none;
+}
+footer h3{
+    color: var(--maroon);
+    margin: 0.20rem;
+}
+footer a{
+    text-decoration: none;
+    margin: 0.35rem;
+    color: midnightblue;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos Gallery | A photo searching Application</title>
+    <link rel="stylesheet" href="./Assets/CommonCss.css">
+    <link rel="stylesheet" href="./Assets/Details.css">
+</head>
+<body>
+    <!--Navigation bar -->
+    <nav>
+        <a href="./"><img src="./camera.png" alt="Logo" class="logo"></a>
+        <a href="./"><h1 class="title">PHOTOS GALLERY</h1></a>
+        <form action="./SearchPage.html" method="get">
+            <input type="text" name="q" autocomplete="off" class="search" placeholder="Type to search" >
+            <input type="submit" value="Search" class="search1" >
+        </form>
+        
+    </nav>
+    <!-- Main section -->
+    <section>
+        <h1 class="heading">&lt; Details of-<span id="image_id"></span> &gt;</h1>
+        <div class="container" id="container"></div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <a href="./"><h4>Gallery</h4></a> 
+        <h2>|</h2>
+        <h3>Designed & Developed by Jhansi...!</h3>
+        <h2>|</h2>
+        <a href="./"><h4>GitHub</h4></a>
+    </footer>
+
+    <script src="./Assets/commonjs.js"></script>
+    <script src="./Assets/details.js"></script>
+    
+</body>
+</html>
